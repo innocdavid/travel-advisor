@@ -1,10 +1,16 @@
 import React from 'react';
 import { Autocomplete } from '@react-google-maps/api';
-import { AppBar, Box, Typography } from "@mui/material"
+import { 
+    AppBar, 
+    Box } from "@mui/material"
 import SearchIcon from '@mui/icons-material/Search';
 
 import TitleTypograph from '../common/text';
-import { Search, SearchIconWrapper, StyledInputBase, AppToolbar } from './style';
+import { 
+    Search, 
+    SearchIconWrapper, 
+    StyledInputBase, 
+    AppToolbar } from './style';
 
 const Header = () => {
   return (
@@ -14,7 +20,7 @@ const Header = () => {
                 <TitleTypograph 
                     variant="h5" 
                     component="div" 
-                    text="Trip Advisor" 
+                    text="Alsafaru Advisor" 
                 />
           
                 <Box display="flex">

@@ -3,6 +3,7 @@ import InputBase from '@mui/material/InputBase';
 
 const AppToolbar = styled('div')(({ theme }) => ({
     display: 'flex',
+    backgroundColor: 'rgb(0, 128, 0)',
     justifyContent: 'center',
     padding: '8px',
     [theme.breakpoints.up('sm')]: {
